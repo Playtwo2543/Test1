@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://wallpaperaccess.com/full/2471303.gif)no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+
+.jeng{
+    width: 420px;
+    background: url(https://i.pinimg.com/originals/03/dc/52/03dc527f11645f26b60e9987fa46c251.jpg)no-repeat;
+    color: blueviolet;
+    background-size: cover;
+    border-radius: 30px ;
+    box-shadow:  10px 0 10px black ;
+
+
+}
+.input-box input ::placeholder{
+    color: aliceblue;
+    
+}
+.input-box i {
+    position: absolute;
+    right: 115px;
+    top: 2px;
+    transform: auto;
+    font-size: 16px;
+
+}
+
+
+.jeng h1 {
+    font-size: 36px ;
+    text-align: center;
+    color: white;
+    }
+
+   .input-box input {
+    border: none;
+    outline: none;
+        border: 2px solid rgba(red, green, blue,.2 );
+        border-radius: 40px ;
+        font-size: 16px;
+        color: red;
+        padding: 0px 5px 0px ;
+        margin: 2px;
+        
+       
+    }.jeng .input-box{
+        position: relative;
+        font-size: 12px;
+    }
+
+   .jeng .remember-fogot{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14.5px;
+    margin: 5px 0 -5px;
+  
+   }
+   .remember-fogot.label input{
+    accent-color: blue ;
+    margin-right: 3px;
+   }
+
+   .remember-fogot a {
+    color: khaki;
+    text-decoration: none;
+   }
+
+   .remember-fogot a:hover{
+    color: aqua;
+    text-decoration: red underline;
+   }
+
+   button{
+    background-color: rgb(255, 255, 255);
+    color: maroon;
+  }
+  button:hover{ 
+    background-color: magenta;
+    color: yellow;
+  }
+  button:active{ 
+    background: blue;
+    color: #fff;
+  }
+
+  .register-link p a:hover{
+    text-decoration: red underline;
+ }
+ 

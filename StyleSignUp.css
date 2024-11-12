@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://i.pinimg.com/originals/01/d2/a1/01d2a1a7ec7b4c0f152a4ca27b91c592.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+.jhenk{
+    width: 420px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStvUa-tS76RxEZyyUbcnj5I353AKEcZLFl3Q&s)no-repeat;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    border-radius: 30px ;
+    box-shadow:  10px 0 10px black ;
+}
+.jhenk h1 {
+    font-size: 36px ;
+    text-align: center;
+    color: rgba(169, 231, 162, 0.436);
+    }
+
+    button{
+        background-color: rgb(0, 0, 0);
+        color: rgb(167, 255, 4);
+      }
+      button:hover{ 
+        background-color: cyan;
+        color: navy;
+      }
+      button:active{ 
+        background: greenyellow;
+        color: #000;
+      }
